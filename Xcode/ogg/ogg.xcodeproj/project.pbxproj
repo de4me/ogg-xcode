@@ -160,6 +160,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BDB8E51727457727001E6A4B /* Build configuration list for PBXNativeTarget "ogg" */;
 			buildPhases = (
+				BDF4350F274583EA007872F8 /* ShellScript */,
 				BDB8E50E27457727001E6A4B /* Headers */,
 				BDB8E50F27457727001E6A4B /* Sources */,
 				BDB8E51027457727001E6A4B /* Frameworks */,
@@ -222,6 +223,25 @@
 
 /* Begin PBXShellScriptBuildPhase section */
 		BD43203C27457D870077DB62 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ ! -L ../../include/ogg/config_types.h ]; then\n        if [ -e ../../include/ogg/config_types.h ]; then\n                mv ../../include/ogg/config_types.h ../../include/ogg/config_types.h.generated\n        fi\n        ln -s ../../include/ogg/config_types.h.macos ../../include/ogg/config_types.h\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BDF4350F274583EA007872F8 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
