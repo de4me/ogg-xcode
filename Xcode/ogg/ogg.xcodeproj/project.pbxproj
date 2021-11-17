@@ -22,7 +22,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BD4320362745788A0077DB62 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		BD43203D27457F390077DB62 /* config_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config_types.h; sourceTree = "<group>"; };
 		BDB8E4F127457389001E6A4B /* libogg.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libogg.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDB8E4F9274573AA001E6A4B /* framing.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = framing.c; sourceTree = "<group>"; };
@@ -55,7 +54,6 @@
 		BD4320352745788A0077DB62 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BD4320362745788A0077DB62 /* Accelerate.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
