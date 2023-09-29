@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		BD43203E27457F390077DB62 /* config_types.h in Headers */ = {isa = PBXBuildFile; fileRef = BD43203D27457F390077DB62 /* config_types.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BD43203F27457F390077DB62 /* config_types.h in Headers */ = {isa = PBXBuildFile; fileRef = BD43203D27457F390077DB62 /* config_types.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD7A53E22AC6B7DE00BDED99 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = BDB8E50C274574F9001E6A4B /* config.h */; };
+		BD7A53E32AC6B7DF00BDED99 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = BDB8E50C274574F9001E6A4B /* config.h */; };
 		BDB8E505274573FC001E6A4B /* os_types.h in Headers */ = {isa = PBXBuildFile; fileRef = BDB8E502274573BD001E6A4B /* os_types.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BDB8E507274573FC001E6A4B /* ogg.h in Headers */ = {isa = PBXBuildFile; fileRef = BDB8E4FF274573BD001E6A4B /* ogg.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BDB8E50827457425001E6A4B /* framing.c in Sources */ = {isa = PBXBuildFile; fileRef = BDB8E4F9274573AA001E6A4B /* framing.c */; };
@@ -29,7 +31,7 @@
 		BDB8E4FC274573AA001E6A4B /* bitwise.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bitwise.c; sourceTree = "<group>"; };
 		BDB8E4FF274573BD001E6A4B /* ogg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ogg.h; sourceTree = "<group>"; };
 		BDB8E502274573BD001E6A4B /* os_types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = os_types.h; sourceTree = "<group>"; };
-		BDB8E50C274574F9001E6A4B /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = config.h; path = include/config.h; sourceTree = "<group>"; };
+		BDB8E50C274574F9001E6A4B /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = config.h; path = ogg/config.h; sourceTree = "<group>"; };
 		BDB8E51327457727001E6A4B /* ogg.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ogg.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -119,6 +121,7 @@
 				BDB8E507274573FC001E6A4B /* ogg.h in Headers */,
 				BD43203E27457F390077DB62 /* config_types.h in Headers */,
 				BDB8E505274573FC001E6A4B /* os_types.h in Headers */,
+				BD7A53E22AC6B7DE00BDED99 /* config.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +133,7 @@
 				BDB8E51B27457754001E6A4B /* os_types.h in Headers */,
 				BD43203F27457F390077DB62 /* config_types.h in Headers */,
 				BDB8E51A27457754001E6A4B /* ogg.h in Headers */,
+				BD7A53E32AC6B7DF00BDED99 /* config.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,7 +453,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.3.5;
-				MODULEMAP_FILE = ogg.modulemap;
+				MODULEMAP_FILE = ogg/ogg.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = org.xiph.ogg;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -477,7 +481,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.3.5;
-				MODULEMAP_FILE = ogg.modulemap;
+				MODULEMAP_FILE = ogg/ogg.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = org.xiph.ogg;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

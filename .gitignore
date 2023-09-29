@@ -58,4 +58,4 @@ CMakeSettings.json
 .DS_Store
 **/xcuserdata/
 
-!Xcode/ogg/include/config.h
+!Xcode/ogg/ogg/config.h

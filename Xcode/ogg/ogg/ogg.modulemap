@@ -1,5 +1,5 @@
 
-framework module SDL_Sound [extern_c] [system] {
+framework module ogg [system] [extern_c] {
   umbrella header "ogg.h"
 
   export *
