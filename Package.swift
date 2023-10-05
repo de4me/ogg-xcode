@@ -17,7 +17,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "ogg",
-            url: "https://github.com/de4me/test-package/releases/download/v1.3.5.2/ogg.zip",
+            url: "https://github.com/de4me/ogg-xcode/releases/download/v1.3.5.2/ogg.zip",
             checksum: "edc85c21c4a10014e4490c0421330455360b18b42a2d1e6b8c83636e0178d3b8"
         ),
     ]
