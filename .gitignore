@@ -59,3 +59,13 @@ CMakeSettings.json
 **/xcuserdata/
 
 !Xcode/ogg/ogg/config.h
+
+# Swift PM
+
+/.build
+/Packages
+xcuserdata/
+DerivedData/
+.swiftpm/configuration/registries.json
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+.netrc
