@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.0)
+cmake_minimum_required(VERSION 3.6)
 
 # Extract project version from configure.ac
 file(READ configure.ac CONFIGURE_AC_CONTENTS)
@@ -175,7 +175,7 @@ if(INSTALL_DOCS)
         doc/skeleton.html
     )
     install(FILES ${OGG_DOCS} DESTINATION ${CMAKE_INSTALL_DOCDIR}/html)
-    install(DIRECTORY doc/libogg DESTINATION ${CMAKE_INSTALL_DOCDIR}/html)
+    install(DIRECTORY doc/libogg DESTINATION ${CMAKE_INSTALL_DOCDIR}/html PATTERN "*.am" EXCLUDE)
 endif()
 
 if(BUILD_TESTING)
