@@ -7,18 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BD7A53E22AC6B7DE00BDED99 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = BDB8E50C274574F9001E6A4B /* config.h */; };
-		BD7A53E32AC6B7DF00BDED99 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = BDB8E50C274574F9001E6A4B /* config.h */; };
 		BD858D0D2AC9934C0084BA79 /* crctable.h in Headers */ = {isa = PBXBuildFile; fileRef = BDB8E4FA274573AA001E6A4B /* crctable.h */; };
 		BD858D0E2AC9934C0084BA79 /* ogg.h in Headers */ = {isa = PBXBuildFile; fileRef = BDB8E4FF274573BD001E6A4B /* ogg.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BD858D102AC9934C0084BA79 /* os_types.h in Headers */ = {isa = PBXBuildFile; fileRef = BDB8E502274573BD001E6A4B /* os_types.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BD858D112AC9934C0084BA79 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = BDB8E50C274574F9001E6A4B /* config.h */; };
 		BD858D132AC9934C0084BA79 /* framing.c in Sources */ = {isa = PBXBuildFile; fileRef = BDB8E4F9274573AA001E6A4B /* framing.c */; };
 		BD858D142AC9934C0084BA79 /* bitwise.c in Sources */ = {isa = PBXBuildFile; fileRef = BDB8E4FC274573AA001E6A4B /* bitwise.c */; };
 		BD858D1D2AC9935B0084BA79 /* crctable.h in Headers */ = {isa = PBXBuildFile; fileRef = BDB8E4FA274573AA001E6A4B /* crctable.h */; };
 		BD858D1E2AC9935B0084BA79 /* os_types.h in Headers */ = {isa = PBXBuildFile; fileRef = BDB8E502274573BD001E6A4B /* os_types.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BD858D202AC9935B0084BA79 /* ogg.h in Headers */ = {isa = PBXBuildFile; fileRef = BDB8E4FF274573BD001E6A4B /* ogg.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BD858D212AC9935B0084BA79 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = BDB8E50C274574F9001E6A4B /* config.h */; };
 		BD858D232AC9935B0084BA79 /* framing.c in Sources */ = {isa = PBXBuildFile; fileRef = BDB8E4F9274573AA001E6A4B /* framing.c */; };
 		BD858D242AC9935B0084BA79 /* bitwise.c in Sources */ = {isa = PBXBuildFile; fileRef = BDB8E4FC274573AA001E6A4B /* bitwise.c */; };
 		BDB8E505274573FC001E6A4B /* os_types.h in Headers */ = {isa = PBXBuildFile; fileRef = BDB8E502274573BD001E6A4B /* os_types.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -42,7 +38,6 @@
 		BDB8E4FC274573AA001E6A4B /* bitwise.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bitwise.c; sourceTree = "<group>"; };
 		BDB8E4FF274573BD001E6A4B /* ogg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ogg.h; sourceTree = "<group>"; };
 		BDB8E502274573BD001E6A4B /* os_types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = os_types.h; sourceTree = "<group>"; };
-		BDB8E50C274574F9001E6A4B /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = config.h; path = ogg/config.h; sourceTree = "<group>"; };
 		BDB8E51327457727001E6A4B /* ogg.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ogg.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -88,7 +83,6 @@
 		BDB8E4E827457389001E6A4B = {
 			isa = PBXGroup;
 			children = (
-				BDB8E50C274574F9001E6A4B /* config.h */,
 				BDB8E4FD274573BD001E6A4B /* include */,
 				BDB8E4F8274573AA001E6A4B /* src */,
 				BDB8E4F227457389001E6A4B /* Products */,
@@ -146,7 +140,6 @@
 				BD858D0D2AC9934C0084BA79 /* crctable.h in Headers */,
 				BD858D0E2AC9934C0084BA79 /* ogg.h in Headers */,
 				BD858D102AC9934C0084BA79 /* os_types.h in Headers */,
-				BD858D112AC9934C0084BA79 /* config.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,7 +150,6 @@
 				BD858D1D2AC9935B0084BA79 /* crctable.h in Headers */,
 				BD858D1E2AC9935B0084BA79 /* os_types.h in Headers */,
 				BD858D202AC9935B0084BA79 /* ogg.h in Headers */,
-				BD858D212AC9935B0084BA79 /* config.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,7 +160,6 @@
 				BDB8E50927457425001E6A4B /* crctable.h in Headers */,
 				BDB8E507274573FC001E6A4B /* ogg.h in Headers */,
 				BDB8E505274573FC001E6A4B /* os_types.h in Headers */,
-				BD7A53E22AC6B7DE00BDED99 /* config.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,7 +170,6 @@
 				BDB8E51D2745775D001E6A4B /* crctable.h in Headers */,
 				BDB8E51B27457754001E6A4B /* os_types.h in Headers */,
 				BDB8E51A27457754001E6A4B /* ogg.h in Headers */,
-				BD7A53E32AC6B7DF00BDED99 /* config.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,7 +180,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD858D162AC9934C0084BA79 /* Build configuration list for PBXNativeTarget "libogg-iOS" */;
 			buildPhases = (
-				BD858D0B2AC9934C0084BA79 /* ShellScript */,
 				BD858D0C2AC9934C0084BA79 /* Headers */,
 				BD858D122AC9934C0084BA79 /* Sources */,
 				BD858D152AC9934C0084BA79 /* Frameworks */,
@@ -226,7 +215,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BDB8E4F527457389001E6A4B /* Build configuration list for PBXNativeTarget "libogg" */;
 			buildPhases = (
-				BD43203C27457D870077DB62 /* ShellScript */,
 				BDB8E4ED27457389001E6A4B /* Headers */,
 				BDB8E4EE27457389001E6A4B /* Sources */,
 				BDB8E4EF27457389001E6A4B /* Frameworks */,
@@ -312,47 +300,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		BD43203C27457D870077DB62 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if [ ! -L ../../include/ogg/config_types.h ]; then\n        if [ -e ../../include/ogg/config_types.h ]; then\n                mv ../../include/ogg/config_types.h ../../include/ogg/config_types.h.generated\n        fi\n        ln -s ../../include/ogg/config_types.h.macos ../../include/ogg/config_types.h\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		BD858D0B2AC9934C0084BA79 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if [ ! -L ../../include/ogg/config_types.h ]; then\n        if [ -e ../../include/ogg/config_types.h ]; then\n                mv ../../include/ogg/config_types.h ../../include/ogg/config_types.h.generated\n        fi\n        ln -s ../../include/ogg/config_types.h.macos ../../include/ogg/config_types.h\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BD858D122AC9934C0084BA79 /* Sources */ = {
@@ -539,7 +486,6 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
-					"HAVE_CONFIG_H=1",
 					"$(inherited)",
 				);
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -599,10 +545,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"NDEBUG=1",
-					"HAVE_CONFIG_H=1",
-				);
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
