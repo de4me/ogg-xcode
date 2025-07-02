@@ -24,11 +24,13 @@ autotools-gcc:
     - ./configure ${CONFIG_FLAGS} || cat config.log
     - make
     - make distcheck
+    - sha256sum libogg-*.tar.* libogg-*.zip
   variables:
     INSTALL_EXTRA: cmake
   artifacts:
     paths:
-     - libogg-*.tar.gz
+     - libogg-*.tar.*
+     - libogg-*.zip
     expire_in: 2 week
 
 autotools-gcc-builddir:
